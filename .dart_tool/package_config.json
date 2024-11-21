@@ -62,6 +62,12 @@
       "languageVersion": "3.3"
     },
     {
+      "name": "intl",
+      "rootUri": "file:///Users/makise/.pub-cache/hosted/pub.dev/intl-0.19.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "leak_tracker",
       "rootUri": "file:///Users/makise/.pub-cache/hosted/pub.dev/leak_tracker-10.0.5",
       "packageUri": "lib/",
@@ -122,6 +128,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "simple_gesture_detector",
+      "rootUri": "file:///Users/makise/.pub-cache/hosted/pub.dev/simple_gesture_detector-0.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///Users/makise/Documents/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -150,6 +162,12 @@
       "rootUri": "file:///Users/makise/.pub-cache/hosted/pub.dev/string_scanner-1.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "table_calendar",
+      "rootUri": "file:///Users/makise/.pub-cache/hosted/pub.dev/table_calendar-3.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "term_glyph",
@@ -182,7 +200,7 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2024-10-20T05:32:35.362249Z",
+  "generated": "2024-11-14T10:02:55.401556Z",
   "generator": "pub",
   "generatorVersion": "3.5.3",
   "flutterRoot": "file:///Users/makise/Documents/flutter",

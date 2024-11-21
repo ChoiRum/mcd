@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mcd/screens/MainHome/MainHome.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -257,11 +258,19 @@ class _LoginPageState extends State<LoginPage> {
                         )
                     ),
                   ),
-                  Container(
-                    padding: EdgeInsets.all(MediaQuery.of(context).size.width * 0.02), // 화면 너비의 2%
-                    width: MediaQuery.of(context).size.width * 0.2,
-                    height: MediaQuery.of(context).size.height * 0.3,
-                    child:  Center(
+                  GestureDetector(
+                    onTap: () {
+                      // 클릭 시 실행할 코드
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => MainHomePage()),
+                      );
+                    },
+                    child: Container(
+                      padding: EdgeInsets.all(MediaQuery.of(context).size.width * 0.02), // 화면 너비의 2%
+                      width: MediaQuery.of(context).size.width * 0.2,
+                      height: MediaQuery.of(context).size.height * 0.3,
+                      child:  Center(
                         child: Column(
                           children: [
                             Image.asset(
@@ -280,8 +289,9 @@ class _LoginPageState extends State<LoginPage> {
                             ),
                           ],
                         )
+                      ),
                     ),
-                  ),
+                    ),
               ],
               ),
             )
